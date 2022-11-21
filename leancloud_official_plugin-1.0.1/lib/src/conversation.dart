@@ -477,6 +477,10 @@ class Conversation with _Utilities {
       method: 'queryMessage',
       arguments: args,
     );
+
+   String json = jsonEncode(rawDatas);
+
+   debugPrint("$json");
     List<Message> messages = [];
     for (var item in rawDatas) {
       messages.add(

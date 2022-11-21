@@ -125,6 +125,12 @@ class Message with _Utilities {
     return message;
   }
 
+  static Message instanceFrom(
+    Map rawData,
+  ) {
+    return _instanceFrom(rawData);
+  }
+
   Map _toMap() {
     var map = <String, dynamic>{};
     if (_currentClientID != null) {
@@ -458,6 +464,7 @@ class LocationMessage extends TypedMessage {
   }
 
   Map? get _locationMap => rawData['_lcloc'];
+
   set _locationMap(Map? value) => rawData['_lcloc'] = value;
 }
 
