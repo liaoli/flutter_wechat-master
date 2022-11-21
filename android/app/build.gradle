@@ -1,0 +1,168 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 32
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.example.charco.wechat"
+        minSdkVersion 24
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+
+//        ndk {
+//            //选择要添加的对应cpu类型的.so库。
+//            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a'
+//            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+//        }
+//
+//
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "2bb8339fd8bddd6634505ab6", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
+
+
+    }
+
+    signingConfigs {
+        config {
+            storeFile file("../charco.keystore")
+            keyAlias "charco"
+            keyPassword "charco"
+            storePassword "charco"
+        }
+
+        debug {
+            storeFile file("../charco.keystore")
+            keyAlias "charco"
+            keyPassword "charco"
+            storePassword "charco"
+        }
+    }
+
+    buildTypes {
+
+        release {
+            signingConfig signingConfigs.config
+            shrinkResources false
+            minifyEnabled false
+            ndk {
+                //设置支持的SO库架构
+                abiFilters "arm64-v8a"
+            }
+        }
+
+        profile {
+            signingConfig signingConfigs.config
+            shrinkResources false
+            minifyEnabled false
+            ndk {
+                //设置支持的SO库架构
+                abiFilters "armeabi-v7a", "arm64-v8a"
+            }
+        }
+
+
+        debug {
+            signingConfig signingConfigs.config
+            shrinkResources false
+            minifyEnabled false
+            ndk {
+                //设置支持的SO库架构
+                abiFilters "armeabi-v7a", "arm64-v8a"
+            }
+        }
+    }
+
+    //此处配置必须添加 否则无法正确运行
+    aaptOptions {
+        additionalParameters '--auto-add-overlay'
+        //noCompress 'foo', 'bar'
+        ignoreAssetsPattern "!.svn:!.git:.*:!CVS:!thumbs.db:!picasa.ini:!*.scc:*~"
+    }
+
+    packagingOptions {
+        pickFirst 'lib/x86/libc++_shared.so'
+        pickFirst 'lib/x86_64/libc++_shared.so'
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+    }
+
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+
+    //导入SDK相关依赖jar、aar
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'cn.leancloud:storage-android:8.2.12'
+    implementation 'cn.leancloud:realtime-android:8.2.12'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //必须添加的依赖
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.5.0'
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation 'com.alibaba:fastjson:1.2.66'
+    implementation 'com.facebook.fresco:fresco:2.5.0'
+    implementation 'com.facebook.fresco:animated-gif:2.5.0'
+    implementation 'com.facebook.fresco:webpsupport:2.5.0'
+    implementation 'com.facebook.fresco:animated-webp:2.5.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+}
