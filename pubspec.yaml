@@ -63,7 +63,8 @@ dependencies:
     path: wechat_camera_picker-3.4.0
 
   leancloud_storage: ^0.7.8
-  leancloud_official_plugin: ^1.0.1
+  leancloud_official_plugin:
+    path: leancloud_official_plugin-1.0.1
 
   # Flutter 城市列表，联系人列表，索引&悬停 https://github.com/flutterchina/azlistview
   azlistview: ^2.0.0
