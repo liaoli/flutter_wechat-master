@@ -71,7 +71,7 @@ class ChatController extends BaseXController {
         //   limit: Constant.PAGE_SIZE,
         // );
 
-        var jsonChat = await rootBundle.loadString('assets/json/tang_chat.json');
+        var jsonChat = await rootBundle.loadString('assets/json/xiaomi_chat.json');
         List data = json.decode(jsonChat);
 
         List<Message> _messages = data.map((e) {
