@@ -1,11 +1,12 @@
 [
+
   {
     "mentionAll": false,
     "conversationId": "62d6797b4fbbaa8db413b723",
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "3点前",
+      "_lctext": "13790192525樊小姐",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -19,7 +20,23 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "大概下午几点过来呀？",
+      "_lctext": "美女，请问一下办按贷的是什么银行？",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "农业银行",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -27,6 +44,194 @@
     "timestamp": 1660901422579,
     "status": 0
   },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[语音]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "没关系的，到时候过去办就可以了，不着急",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "￼",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },{
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "我那个朋友说不过去了",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "两个都不来么",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "她想回老家买洋房",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+   {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "别一个想叫她姐买的，等下问问看她去不去",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+   {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[语音]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[语音]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "好的，没关系，等下看看另一个朋友想不想来￼",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "好的",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "我那个朋友跟我去，但她不买[捂脸]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "她是想让她姐姐买么",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
   {
     "mentionAll": false,
     "conversationId": "62d6797b4fbbaa8db413b723",
@@ -41,13 +246,422 @@
     "timestamp": 1660901422579,
     "status": 0
   },
+
   {
     "mentionAll": false,
     "conversationId": "62d6797b4fbbaa8db413b723",
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "李姐，你是明天下午过来签约对吗？",
+      "_lctext": "她姐在老家还是在这里呀",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+{
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[捂脸]",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "这里",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "那没关系，要不先报备一下吧，买不买再说[捂脸]",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "姐，你把她电话发下给我吧",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "她不买就不用了",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "我怕她万一买￼，哈哈",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "应该不会买",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "抱着吧，也没关系",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "你发给我她的电话的前三后四也行",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "137一7683林小姐",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[动画表情]",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+{
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "你和林小姐几点出发呀，那个樊小姐确定不来了哈",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "她不来",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "现在过来",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "到了",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "稍等下",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "好的姐，你这边有什么事儿？有什么问题你随时给我微信哈[抱拳]",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "然后今天那个朋友呢，他看着就也还行，到时候我们看他有没有意向，如果他姐有意向的话，我也会跟你说的哈[爱心][爱心][呲牙][呲牙]",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -2,
+      "_lcfile": {
+        "metaData": {
+          "filename": "logo.png",
+          "width": 200,
+          "height": 200,
+          "format": "png",
+          "size": -1
+        },
+        "objId": "62ff582eade0844a97a934db",
+        "url": "http://lc-jjdYaY3R.cn-n1.lcfile.com/EDTpErPquBaIK29s4ASGiu61kfSc5bBa/logo.png"
+      },
+      "_lctext": null,
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "FlxWeuoYQp6szAW9o3XHAQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "对了姐，你抽空把这个码扫一下，他要上你上传你的身份证，还有人脸识别一下，你自己，今天那个机器不行",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[语音]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+ {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[语音]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "好的，不急",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[语音]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "好的，我明天提醒你",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "姐，早上好，你抽空把那个码扫一下",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "姐，你扫码了没",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -75,21 +689,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "姐，得问问那个客服，怎么解锁",
+      "_lctext": "￼好",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -103,7 +703,238 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
+      "_lctext": "好麻烦，不会弄呀",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "你用手机的二维码扫一下",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "让你上传一下你的身份证正反面",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
       "_lctext": "[语音]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },{
+  "mentionAll": false,
+  "conversationId": "62d6797b4fbbaa8db413b723",
+  "io": 2,
+  "typeMsgData": {
+    "_lctype": -1,
+    "_lctext": "[语音]",
+    "_lcattrs": null
+  },
+  "from": "+8618202003769",
+  "id": "oiatsqM+SteU8qPL2kZApQ",
+  "timestamp": 1660901422579,
+  "status": 0
+},
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "我重新发个给你",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -2,
+      "_lcfile": {
+        "metaData": {
+          "filename": "logo.png",
+          "width": 200,
+          "height": 200,
+          "format": "png",
+          "size": -1
+        },
+        "objId": "62ff582eade0844a97a934db",
+        "url": "http://lc-jjdYaY3R.cn-n1.lcfile.com/EDTpErPquBaIK29s4ASGiu61kfSc5bBa/logo.png"
+      },
+      "_lctext": null,
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "FlxWeuoYQp6szAW9o3XHAQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "[语音]",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },{
+  "mentionAll": false,
+  "conversationId": "62d6797b4fbbaa8db413b723",
+  "io": 2,
+  "typeMsgData": {
+    "_lctype": -1,
+    "_lctext": "我查一下",
+    "_lcattrs": null
+  },
+  "from": "+8618200000000",
+  "id": "oiatsqM+SteU8qPL2kZApQ",
+  "timestamp": 1660901422579,
+  "status": 0
+},{
+  "mentionAll": false,
+  "conversationId": "62d6797b4fbbaa8db413b723",
+  "io": 2,
+  "typeMsgData": {
+    "_lctype": -1,
+    "_lctext": "可以了",
+    "_lcattrs": null
+  },
+  "from": "+8618200000000",
+  "id": "oiatsqM+SteU8qPL2kZApQ",
+  "timestamp": 1660901422579,
+  "status": 0
+}, {
+  "mentionAll": false,
+  "conversationId": "62d6797b4fbbaa8db413b723",
+  "io": 2,
+  "typeMsgData": {
+    "_lctype": -1,
+    "_lctext": "[语音]",
+    "_lcattrs": null
+  },
+  "from": "+8618202003769",
+  "id": "oiatsqM+SteU8qPL2kZApQ",
+  "timestamp": 1660901422579,
+  "status": 0
+}, {
+  "mentionAll": false,
+  "conversationId": "62d6797b4fbbaa8db413b723",
+  "io": 2,
+  "typeMsgData": {
+    "_lctype": -1,
+    "_lctext": "[语音]",
+    "_lcattrs": null
+  },
+  "from": "+8618202003769",
+  "id": "oiatsqM+SteU8qPL2kZApQ",
+  "timestamp": 1660901422579,
+  "status": 0
+},{
+  "mentionAll": false,
+  "conversationId": "62d6797b4fbbaa8db413b723",
+  "io": 2,
+  "typeMsgData": {
+    "_lctype": -1,
+    "_lctext": "姐，您记得在10月18之前然后付一下那个的尾款哈",
+    "_lcattrs": null
+  },
+  "from": "+8618200000000",
+  "id": "oiatsqM+SteU8qPL2kZApQ",
+  "timestamp": 1660901422579,
+  "status": 0
+}, {
+  "mentionAll": false,
+  "conversationId": "62d6797b4fbbaa8db413b723",
+  "io": 2,
+  "typeMsgData": {
+    "_lctype": -1,
+    "_lctext": "美女，看一下我们还欠多少钱",
+    "_lcattrs": null
+  },
+  "from": "+8618202003769",
+  "id": "oiatsqM+SteU8qPL2kZApQ",
+  "timestamp": 1660901422579,
+  "status": 0
+},
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "一个12万，一个13万，一共25万",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  }, {
+  "mentionAll": false,
+  "conversationId": "62d6797b4fbbaa8db413b723",
+  "io": 2,
+  "typeMsgData": {
+    "_lctype": -1,
+    "_lctext": "￼",
+    "_lcattrs": null
+  },
+  "from": "+8618202003769",
+  "id": "oiatsqM+SteU8qPL2kZApQ",
+  "timestamp": 1660901422579,
+  "status": 0
+},
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "明天什么时候方便我去付尾数",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -117,7 +948,21 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "银行客服说消费涉及房地产，所以锁卡了",
+      "_lctext": "姐，都可以，看你时间就行",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "好的",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -131,7 +976,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[语音]",
+      "_lctext": "美女，买房子给全款不是还能打折的吗？",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -145,7 +990,63 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[语音]",
+      "_lctext": "和按揭一样的",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "我在长安刚买的公寓都有的",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "这边政策是这样的，有的话我肯定告诉你啦",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "哦哦",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "财务中午几点下班？",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -173,7 +1074,63 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "哦哦",
+      "_lctext": "都在的姐",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "中午不下班吗",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "我现在过来",
+      "_lcattrs": null
+    },
+    "from": "+8618202003769",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "不下班，姐，等一下你到了直接去财务室就是刷卡那里就可以了，\n然后再去律师那边退一下费哈姐",
+      "_lcattrs": null
+    },
+    "from": "+8618200000000",
+    "id": "oiatsqM+SteU8qPL2kZApQ",
+    "timestamp": 1660901422579,
+    "status": 0
+  },
+  {
+    "mentionAll": false,
+    "conversationId": "62d6797b4fbbaa8db413b723",
+    "io": 2,
+    "typeMsgData": {
+      "_lctype": -1,
+      "_lctext": "美女，麻烦你问一下都一个星期了，说退的一千八怎么还没退？",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -188,7 +1145,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "但是自己装修花不多少钱就可以装修的很漂亮了",
+      "_lctext": "上次资料都给她了没",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -196,14 +1153,13 @@
     "timestamp": 1660901422579,
     "status": 0
   },
-
   {
     "mentionAll": false,
     "conversationId": "62d6797b4fbbaa8db413b723",
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[语音]",
+      "_lctext": "都给了呀，购房合同都拿回来了",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -217,7 +1173,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "你放心吧李姐",
+      "_lctext": "好的好的",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -231,347 +1187,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "你家的那个是别人抢着要的￼",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "其他的房源，贵一些，没关系的~到时候如果他们真的看上喜欢的话，再选",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "我那家是没人要的那种吗",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "为什么？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "好的",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },{
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "其他的房源贵一些",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "是的",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "有，但是没有你那么便宜的了",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "都是周一过来么",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "￼￼￼",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "有",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -4,
-      "_lcfile": {
-        "metaData": {
-          "duration": 3270,
-          "videoWidth": 360,
-          "filename": "screen-recording-1660553813128.mp4",
-          "thumbnailWidth": 596,
-          "thumbnailHeight": 1280,
-          "videoHeight": 772,
-          "thumbnailUrl": "http://lc-jjdYaY3R.cn-n1.lcfile.com/ryuPvJYQiKAgkTSFwL69s7YHMhopi6Ti/screen-recording-1660553813128.png",
-          "format": "mp4",
-          "size": -1
-        },
-        "objId": "62ff61bdbcce5a6dbb0267d2",
-        "url": "http://lc-jjdYaY3R.cn-n1.lcfile.com/wUmNbRThXattl3igpNcfyv0Skg2sfc70/screen-recording-1660553813128.mp4"
-      },
-      "_lctext": null,
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "u0MMoHEtSBa2nfv44zBfaw",
-    "timestamp": 1660903869586,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -4,
-      "_lcfile": {
-        "metaData": {
-          "duration": 3270,
-          "videoWidth": 360,
-          "filename": "screen-recording-1660553813128.mp4",
-          "thumbnailWidth": 596,
-          "thumbnailHeight": 1280,
-          "videoHeight": 772,
-          "thumbnailUrl": "http://lc-jjdYaY3R.cn-n1.lcfile.com/ryuPvJYQiKAgkTSFwL69s7YHMhopi6Ti/screen-recording-1660553813128.png",
-          "format": "mp4",
-          "size": -1
-        },
-        "objId": "62ff61bdbcce5a6dbb0267d2",
-        "url": "http://lc-jjdYaY3R.cn-n1.lcfile.com/wUmNbRThXattl3igpNcfyv0Skg2sfc70/screen-recording-1660553813128.mp4"
-      },
-      "_lctext": null,
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "u0MMoHEtSBa2nfv44zBfaw",
-    "timestamp": 1660903869586,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "好嘞，可以哒",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "先让她看看资料先，星期一前发给你行吗",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "姐，你记得一定要提前发给我哈，不然没办法申请那些奖励和优惠的哈",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "不会知道的，放心吧，你们过来之前我才会发给公司哒",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "给朋友知道我不经她同意给电话不好的",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "我们报备也会只报备客户的前3后4，买了以后才会留下全号，所以没事的，放心吧",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "不会给他打电话的",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "这样不好吧",
+      "_lctext": "美女，问了怎么样啦？",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -586,64 +1202,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "要提前跟公司报备",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "姐，你提前把她的名字和电话发给我一下￼",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "我把资料给她了，她说星期一跟我一起去",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "她也能买的便宜",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "哦哦",
+      "_lctext": "要不你给联系电话话我，我自己问",
       "_lcattrs": null
     },
     "from": "+8618202003769",
@@ -657,7 +1216,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "对呀，只送给你￼",
+      "_lctext": "他那边催一下财务，你这边放心的说退一定会退的",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -671,597 +1230,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "我说送东西是不是只送给我[捂脸]",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "姐，你说的啥，我没听懂￼",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "两个一样送吗[捂脸]",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "李姐，你朋友这边想买和您一样，两个的话，我这边给你申请，一台冰箱和电视",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "可以帮他操作，跟你一样的优惠",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "还有",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "￼",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "我到了",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "好的",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "您慢点开车注意安全",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "好的",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "您出发的时候告诉下我哈￼",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "广东省东莞市厚街湖景大道16号",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "哦哦",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "肯定能呀，有独立红本的，放心吧",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "君泰地产",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "还有你们开发商是叫啥，房管局能查到这个项目的信息吗？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "明天大概十点多十一点的样子吧",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "对了，还有管理费电费怎么收的？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "好，那我这边先暂时还是帮你保留那个2楼，您明天大概什么时候过来呢",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "我们今晚商量一下楼层先吧，确定好明天再过去找你吧",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "还有近半年的银行流水",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "定金付10万，余下的首付就7天之内付齐，交首付的时候呢，就带上身份证，户口本，结婚证，收入证明",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "明天订金要付多少？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "那就是现在还是确定要那个2楼对吧？",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "明天再过去一趟吧",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "楼盘现在还在施工",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "能不能进去楼盘看一看大概啊？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "你现在就是确定楼层，无论买哪一个都是给你们内部价格放心吧",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "你看我们一买又买两套，而且二楼一般都没人喜欢买的啦",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "2楼那两套价格方面还能再优惠点吗？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "您看一下你是觉得低楼层朝南的好，还是朝北的高楼层好",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "是的，有两套打通的楼层",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "但是朝南看湖的贵很多，要贵了十几万不太划算",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "朝北的不能看，朝南的可以看湖",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "朝北是不是看湖的？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-{
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "也有两套可以打通的是吧",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "14也有",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "15楼",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-{
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "13楼",
+      "_lctext": "我们也是问律师",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -1276,165 +1245,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "中间楼层大概最高能到几楼？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "中间楼层朝北的，比这个总价比这个二楼总价贵了2万",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "中间楼层朝北也和这个2楼的差不多价格吗？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "4栋朝南有17楼，18楼，朝北的21楼",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "四栋也没有了吗？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "12楼昨天卖掉了，没有两套在一起的了",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "您看您是注重楼层还是朝向",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "不是还有12楼也差不多的吗？",
-      "_lcattrs": null
-    },
-    "from": "+8618202003769",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "如果高楼层朝北向的，比如13楼或者15楼，总价要比这个2楼朝南的贵个6万左右",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "贵出来一套装修钱",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "2楼是朝南的，性价比最高，\n如果说，14楼或者17楼要比这个楼层，总价贵了12万",
-      "_lcattrs": null
-    },
-    "from": "+8618200000000",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1660901422579,
-    "status": 0
-  },
-
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "除了2楼还有什么楼层可以选啊",
+      "_lctext": "快十天了",
       "_lcattrs": null
     },
     "from": "+8618202003769",
