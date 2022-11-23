@@ -33,9 +33,23 @@ class ChatAvatar extends StatelessWidget {
       String? avatar;
       conversation.members?.forEach((username) {
         if(username != userController.username){
-          avatar = memberController.getMember(username)?.avatar;
+          switch(username){
+            case "+8618200000001":
+            case "+8618200000002":
+              avatar =
+              "https://goerp.oss-cn-hongkong.aliyuncs.com/apk/erp/${username.substring(3)}.jpeg";
+              break;
+            default:
+              avatar = memberController.getMember(username)?.avatar;
+              break;
+          }
+
         }
+
+
       });
+
+
 
       return AvatarWidget(avatar: avatar, weightWidth: 100.w);
 

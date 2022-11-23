@@ -59,7 +59,20 @@ extension LcConversationExt on Conversation {
       String? title;
       members?.forEach((username) {
         if(username != UserController.instance.username){
-          title = MemberController.instance.getMember(username)?.nickname;
+
+          switch(username){
+            case "+8618200000001":
+              title = "客户一";
+              break;
+            case "+8618200000002":
+            title = "客户二";
+              break;
+            default:
+              title = MemberController.instance.getMember(username)?.nickname;
+              break;
+          }
+
+
         }
       });
       return title??'title';

@@ -64,23 +64,42 @@ class ChatController extends BaseXController {
   refreshMessage() {
     if (conversation != null) {
       lcPost(() async {
-        // List<Message> _messages = await conversation!.queryMessage(
-        //   startMessageID: messages.safetyItem(messages.length-1)?.id,
-        //   startTimestamp: messages.safetyItem(messages.length-1)?.sentTimestamp,
-        //   startClosed: messages.isNotEmpty?false:null,
-        //   limit: Constant.PAGE_SIZE,
-        // );
+        late List<Message> _messages;
 
-        var jsonChat = await rootBundle.loadString('assets/json/ying_chat.json');
-        List data = json.decode(jsonChat);
+        if (conversation!.members!.contains("+8618200000001")) {
+          var jsonChat =
+              await rootBundle.loadString('assets/json/ying_chat.json');
+          List data = json.decode(jsonChat);
 
-        List<Message> _messages = data.map((e) {
-          return Message.instanceFrom(
-            e,
+          _messages = data.map((e) {
+            return Message.instanceFrom(
+              e,
+            );
+          }).toList();
+          messages.clear();
+          messages.addAll(_messages);
+        } else if (conversation!.members!.contains("+8618200000002")) {
+          var jsonChat =
+              await rootBundle.loadString('assets/json/tang_chat.json');
+          List data = json.decode(jsonChat);
+
+          _messages = data.map((e) {
+            return Message.instanceFrom(
+              e,
+            );
+          }).toList();
+          messages.clear();
+          messages.addAll(_messages);
+        } else {
+          _messages = await conversation!.queryMessage(
+            startMessageID: messages.safetyItem(messages.length - 1)?.id,
+            startTimestamp:
+                messages.safetyItem(messages.length - 1)?.sentTimestamp,
+            startClosed: messages.isNotEmpty ? false : null,
+            limit: Constant.PAGE_SIZE,
           );
-        }).toList();
-
-        messages.addAll(_messages);
+          messages.addAll(_messages.reversed);
+        }
         debugPrint('messages ${_messages.length}');
       }, onError: (Exception e) {}, showloading: false);
     }

@@ -33,7 +33,7 @@ flutter:
       ios:
         pluginClass: LeancloudPlugin
   assets:
-    - assets/json/
+    - assets/json/chat_list.json
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

@@ -61,8 +61,8 @@ class MessageItem extends StatelessWidget {
 
     String? avatar;
     switch (message.fromClientID) {
-      case "+861820000001":
-      case "+861820000002":
+      case "+8618200000001":
+      case "+8618200000002":
         avatar =
             "https://goerp.oss-cn-hongkong.aliyuncs.com/apk/erp/${message.fromClientID?.substring(3)}.jpeg";
         break;
