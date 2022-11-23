@@ -313,8 +313,8 @@ packages:
   photo_manager:
     dependency: transitive
     description:
-      path: "/Users/liaoli/StudioProjects/im/photo_manager-2.1.0+2"
-      relative: false
+      path: "../../photo_manager-2.1.0+2"
+      relative: true
     source: path
     version: "2.1.0+2"
   platform:
@@ -451,8 +451,8 @@ packages:
   wechat_camera_picker:
     dependency: "direct main"
     description:
-      path: "/Users/liaoli/StudioProjects/im/wechat_camera_picker-3.4.0"
-      relative: false
+      path: "../../wechat_camera_picker-3.4.0"
+      relative: true
     source: path
     version: "3.4.0"
   win32:

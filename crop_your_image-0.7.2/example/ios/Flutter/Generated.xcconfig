@@ -1,6 +1,6 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/hfy/flutter/flutter3.0.0
-FLUTTER_APPLICATION_PATH=/Users/hfy/AndroidStudioProjects/im/flutter_wechat-master/leancloud_official_plugin-1.0.1/example
+FLUTTER_APPLICATION_PATH=/Users/hfy/AndroidStudioProjects/im/flutter_wechat-master/crop_your_image-0.7.2/example
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_TARGET=lib/main.dart
 FLUTTER_BUILD_DIR=build

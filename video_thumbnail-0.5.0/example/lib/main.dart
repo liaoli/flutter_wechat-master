@@ -379,11 +379,11 @@ class _DemoHomeState extends State<DemoHome> {
           children: <Widget>[
             FloatingActionButton(
               onPressed: () async {
-                File video =
-                    await ImagePicker.pickVideo(source: ImageSource.camera);
-                setState(() {
-                  _video.text = video.path;
-                });
+                // File video =
+                //     await ImagePicker.pickVideo(source: ImageSource.camera);
+                // setState(() {
+                //   _video.text = video.path;
+                // });
               },
               child: Icon(Icons.videocam),
               tooltip: "Capture a video",
@@ -393,11 +393,11 @@ class _DemoHomeState extends State<DemoHome> {
             ),
             FloatingActionButton(
               onPressed: () async {
-                File video =
+               /* File video =
                     await ImagePicker.pickVideo(source: ImageSource.gallery);
                 setState(() {
                   _video.text = video?.path;
-                });
+                });*/
               },
               child: Icon(Icons.local_movies),
               tooltip: "Pick a video",

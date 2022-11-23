@@ -409,8 +409,8 @@ packages:
   video_thumbnail:
     dependency: transitive
     description:
-      path: "/Users/liaoli/StudioProjects/im/video_thumbnail-0.5.0"
-      relative: false
+      path: "../../video_thumbnail-0.5.0"
+      relative: true
     source: path
     version: "0.5.0"
   win32:
