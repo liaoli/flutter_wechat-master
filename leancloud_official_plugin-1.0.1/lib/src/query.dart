@@ -357,11 +357,12 @@ class ConversationQuery with _Utilities {
     return args;
   }
 
-  List<T> _handleResults<T extends Conversation>(
+  Future<List<T>> _handleResults<T extends Conversation>(
     List results,
     bool isIncludeLastMessage,
-  ) {
+  ) async {
     List<T> conversations = <T>[];
+
     for (var item in results) {
       final String? conversationID = item['objectId'];
       if (conversationID != null) {
@@ -373,6 +374,7 @@ class ConversationQuery with _Utilities {
             client: client,
             rawData: item,
           );
+
           client.conversationMap[conversationID] = conversation;
         }
         if (isIncludeLastMessage) {
@@ -385,9 +387,48 @@ class ConversationQuery with _Utilities {
             );
           }
         }
+
         conversations.add(conversation as T);
       }
     }
+
+    // String s =
+    //     "{\"msg\":{\"mentionAll\":false,\"clientId\":\"+8618200000000\",\"conversationId\":\"62d6797b4fbbaa8db413b723\",\"io\":2,\"typeMsgData\":{\"_lctype\":-1,\"_lctext\":\"[sg1]\",\"_lcattrs\":null},\"from\":\"+8618200000000\",\"id\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"timestamp\":1669136438580,\"status\":2},\"lm\":{\"__type\":\"Date\",\"iso\":\"2022-11-22T17:00:38.580Z\"},\"c\":\"+8618200000001\",\"bin\":false,\"mu\":[],\"m\":[\"+8618200000000\",\"+8618200000001\"],\"createdAt\":\"2022-07-19T09:29:31.149Z\",\"msg_from\":\"+8618200000000\",\"msg_mid\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"conv_type\":1,\"unique\":true,\"name\":\"test\",\"attr\":{\"pin\":false},\"msg_timestamp\":1669136438580,\"objectId\":\"62d6797b4fbbaa8db413b723\",\"tr\":false,\"uniqueId\":\"38f5aca8ae126a9d7ae95afde290c708\",\"updatedAt\":\"2022-11-22T17:07:57.284Z\"}";
+
+    String s ="[{\"msg\":{\"mentionAll\":false,\"clientId\":\"+8618200000000\",\"conversationId\":\"62d6797b4fbbaa8db413b723\",\"io\":2,\"typeMsgData\":{\"_lctype\":-1,\"_lctext\":\"[sg1]\",\"_lcattrs\":null},\"from\":\"+8618200000000\",\"id\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"timestamp\":1669136438580,\"status\":2},\"lm\":{\"__type\":\"Date\",\"iso\":\"2022-11-22T17:00:38.580Z\"},\"c\":\"+8618200000001\",\"bin\":false,\"mu\":[],\"m\":[\"+8618200000000\",\"+8618200000001\"],\"createdAt\":\"2022-07-19T09:29:31.149Z\",\"msg_from\":\"+8618200000000\",\"msg_mid\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"conv_type\":1,\"unique\":true,\"name\":\"test\",\"attr\":{\"pin\":false},\"msg_timestamp\":1669136438580,\"objectId\":\"62d6797b4fbbaa8db413b723\",\"tr\":false,\"uniqueId\":\"38f5aca8ae126a9d7ae95afde290c708\",\"updatedAt\":\"2022-11-22T17:07:57.284Z\"},{\"msg\":{\"mentionAll\":false,\"clientId\":\"+8618200000000\",\"conversationId\":\"62d6797b4fbbaa8db413b723\",\"io\":2,\"typeMsgData\":{\"_lctype\":-1,\"_lctext\":\"[sg1]\",\"_lcattrs\":null},\"from\":\"+8618200000000\",\"id\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"timestamp\":1669136438580,\"status\":2},\"lm\":{\"__type\":\"Date\",\"iso\":\"2022-11-22T17:00:38.580Z\"},\"c\":\"+8618200000002\",\"bin\":false,\"mu\":[],\"m\":[\"+8618200000000\",\"+8618200000002\"],\"createdAt\":\"2022-07-19T09:29:31.149Z\",\"msg_from\":\"+8618200000000\",\"msg_mid\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"conv_type\":1,\"unique\":true,\"name\":\"test\",\"attr\":{\"pin\":false},\"msg_timestamp\":1669136438580,\"objectId\":\"62d6797b4fbbaa8db413b723\",\"tr\":false,\"uniqueId\":\"38f5aca8ae126a9d7ae95afde290c708\",\"updatedAt\":\"2022-11-22T17:07:57.284Z\"},{\"msg\":{\"mentionAll\":false,\"clientId\":\"+8618200000000\",\"conversationId\":\"62d6797b4fbbaa8db413b723\",\"io\":2,\"typeMsgData\":{\"_lctype\":-1,\"_lctext\":\"[sg1]\",\"_lcattrs\":null},\"from\":\"+8618200000000\",\"id\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"timestamp\":1669136438580,\"status\":2},\"lm\":{\"__type\":\"Date\",\"iso\":\"2022-11-22T17:00:38.580Z\"},\"c\":\"+8618200000003\",\"bin\":false,\"mu\":[],\"m\":[\"+8618200000000\",\"+8618200000003\"],\"createdAt\":\"2022-07-19T09:29:31.149Z\",\"msg_from\":\"+8618200000000\",\"msg_mid\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"conv_type\":1,\"unique\":true,\"name\":\"test\",\"attr\":{\"pin\":false},\"msg_timestamp\":1669136438580,\"objectId\":\"62d6797b4fbbaa8db413b723\",\"tr\":false,\"uniqueId\":\"38f5aca8ae126a9d7ae95afde290c708\",\"updatedAt\":\"2022-11-22T17:07:57.284Z\"},{\"msg\":{\"mentionAll\":false,\"clientId\":\"+8618200000000\",\"conversationId\":\"62d6797b4fbbaa8db413b723\",\"io\":2,\"typeMsgData\":{\"_lctype\":-1,\"_lctext\":\"[sg1]\",\"_lcattrs\":null},\"from\":\"+8618200000000\",\"id\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"timestamp\":1669136438580,\"status\":2},\"lm\":{\"__type\":\"Date\",\"iso\":\"2022-11-22T17:00:38.580Z\"},\"c\":\"+8618200000004\",\"bin\":false,\"mu\":[],\"m\":[\"+8618200000000\",\"+8618200000004\"],\"createdAt\":\"2022-07-19T09:29:31.149Z\",\"msg_from\":\"+8618200000000\",\"msg_mid\":\"N3As80ZyQVuvzaRvhQH8Xg\",\"conv_type\":1,\"unique\":true,\"name\":\"test\",\"attr\":{\"pin\":false},\"msg_timestamp\":1669136438580,\"objectId\":\"62d6797b4fbbaa8db413b723\",\"tr\":false,\"uniqueId\":\"38f5aca8ae126a9d7ae95afde290c708\",\"updatedAt\":\"2022-11-22T17:07:57.284Z\"}]";
+
+    // var jsonChat = await rootBundle.loadString('/assets/json/chat_list.json');
+    List data = json.decode(s);
+
+    for (var item in data) {
+      final String? conversationID = item['objectId'];
+      if (conversationID != null) {
+        Conversation? conversation = client.conversationMap[conversationID];
+        if (conversation != null) {
+          conversation._rawData = item;
+        } else {
+          conversation = Conversation._newInstance(
+            client: client,
+            rawData: item,
+          );
+
+          client.conversationMap[conversationID] = conversation;
+        }
+        if (isIncludeLastMessage) {
+          dynamic msg = item['msg'];
+          if (msg is Map) {
+            conversation._updateLastMessage(
+              message: Message._instanceFrom(
+                msg,
+              ),
+            );
+          }
+        }
+
+        conversations.add(conversation as T);
+      }
+    }
+
     return conversations;
   }
 }
