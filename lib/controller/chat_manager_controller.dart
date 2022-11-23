@@ -103,7 +103,6 @@ class ChatManagerController extends BaseXController {
    }else{
      chatList.add(conversation);
    }
-
  }
 
   chatIndex() async {

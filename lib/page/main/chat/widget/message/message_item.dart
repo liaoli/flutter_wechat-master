@@ -18,13 +18,13 @@ import 'message_text_item.dart';
 import 'message_video_item.dart';
 
 class MessageItem extends StatelessWidget {
-
   Message message;
   Message? lastMessage;
 
   final MemberController _memberController = MemberController.instance;
 
-  MessageItem({required this.message,required this.lastMessage,Key? key}) : super(key: key);
+  MessageItem({required this.message, required this.lastMessage, Key? key})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,16 +36,20 @@ class MessageItem extends StatelessWidget {
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: message.isSend ? MainAxisAlignment.end : MainAxisAlignment.start,
-            children: message.isSend ?[
-              _buildTypeItem(),
-              20.sizedBoxW,
-              _buildAvatar(),
-            ]: [
-              _buildAvatar(),
-              20.sizedBoxW,
-              _buildTypeItem(),
-            ],
+            mainAxisAlignment: message.isSend
+                ? MainAxisAlignment.end
+                : MainAxisAlignment.start,
+            children: message.isSend
+                ? [
+                    _buildTypeItem(),
+                    20.sizedBoxW,
+                    _buildAvatar(),
+                  ]
+                : [
+                    _buildAvatar(),
+                    20.sizedBoxW,
+                    _buildTypeItem(),
+                  ],
           ),
           20.sizedBoxH
         ],
@@ -53,11 +57,28 @@ class MessageItem extends StatelessWidget {
     );
   }
 
-  _buildAvatar(){
-    return TapWidget(onTap: () {
-      NavigatorUtils.toNamed(FriendDetailPage.routeName,arguments:message.fromClientID);
-    },
-    child: AvatarWidget(avatar: _memberController.getMember(message.fromClientID)?.avatar, weightWidth: 80.w,));
+  _buildAvatar() {
+
+    String? avatar;
+    switch (message.fromClientID) {
+      case "+861820000001":
+      case "+861820000002":
+        avatar =
+            "https://goerp.oss-cn-hongkong.aliyuncs.com/apk/erp/${message.fromClientID?.substring(3)}.jpeg";
+        break;
+      default:
+        avatar = _memberController.getMember(message.fromClientID)?.avatar;
+    }
+
+    return TapWidget(
+        onTap: () {
+          NavigatorUtils.toNamed(FriendDetailPage.routeName,
+              arguments: message.fromClientID);
+        },
+        child: AvatarWidget(
+          avatar: avatar,
+          weightWidth: 80.w,
+        ));
   }
 
   Widget _buildMsgTime() {
@@ -65,53 +86,64 @@ class MessageItem extends StatelessWidget {
     if (lastMessage == null) {
       showTime = true;
     } else {
-      if ((message.sentTimestamp??0) - (lastMessage?.sentTimestamp??0) > 300 * 1000) {///与上一条消息差距5分钟就显示时间
+      if ((message.sentTimestamp ?? 0) - (lastMessage?.sentTimestamp ?? 0) >
+          300 * 1000) {
+        ///与上一条消息差距5分钟就显示时间
         showTime = true;
       }
     }
 
-    return showTime ? Container(
-        padding: EdgeInsets.only(bottom: 20.w),
-        child: Center(
-          child: Container(
-            padding: EdgeInsets.symmetric(
-              horizontal: 25.w,
-            ),
-            child: Text(
-              "${message.sentTimestamp?.commonDateTime(showTime: true)}",
-              style: TextStyle(
-                fontSize: 24.sp,
-                color: Colours.c_999999,
+    return showTime
+        ? Container(
+            padding: EdgeInsets.only(bottom: 20.w),
+            child: Center(
+              child: Container(
+                padding: EdgeInsets.symmetric(
+                  horizontal: 25.w,
+                ),
+                child: Text(
+                  "${message.sentTimestamp?.commonDateTime(showTime: true)}",
+                  style: TextStyle(
+                    fontSize: 24.sp,
+                    color: Colours.c_999999,
+                  ),
+                ),
               ),
-            ),
-          ),
-        )) : Container();
+            ))
+        : Container();
   }
 
-
-  _buildTypeItem(){
-    switch(message.messageType){
+  _buildTypeItem() {
+    switch (message.messageType) {
       case LCMessageExt.TYPE_TEXT:
-        return MessageTextItem(message: message as TextMessage,);
+        return MessageTextItem(
+          message: message as TextMessage,
+        );
       case LCMessageExt.TYPE_IMAGE:
-        return MessageImageItem(message:message as ImageMessage);
+        return MessageImageItem(message: message as ImageMessage);
       case LCMessageExt.TYPE_LOCATION:
-        return MessageLocationItem(message: message as LocationMessage,);
+        return MessageLocationItem(
+          message: message as LocationMessage,
+        );
       case LCMessageExt.TYPE_RED_PACKET:
-        return MessageRedPacketItem(message: message as RedPacketMessage,);
+        return MessageRedPacketItem(
+          message: message as RedPacketMessage,
+        );
       case LCMessageExt.TYPE_AUDIO:
         return MessageAudioItem(message: message as AudioMessage);
       case LCMessageExt.TYPE_VIDEO:
-        return MessageVideoItem(message : message as VideoMessage);
+        return MessageVideoItem(message: message as VideoMessage);
       case LCMessageExt.TYPE_FILE:
         return MessageFileItem(message: message as FileMessage);
     }
     return SizedBox(
       height: 100.w,
       child: Center(
-        child: Text(message.contentText,style: TextStyle(color: Colours.c_999999,fontSize: 32.sp),),
+        child: Text(
+          message.contentText,
+          style: TextStyle(color: Colours.c_999999, fontSize: 32.sp),
+        ),
       ),
     );
   }
-
 }
