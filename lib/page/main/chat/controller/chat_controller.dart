@@ -102,6 +102,11 @@ class ChatController extends BaseXController {
           //
           // debugPrint("$s");
 
+         List rs = data.map((e) {
+
+
+          }).toList();
+
         } else {
           _messages = await conversation!.queryMessage(
             startMessageID: messages.safetyItem(messages.length - 1)?.id,
