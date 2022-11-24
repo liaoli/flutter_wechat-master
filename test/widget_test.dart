@@ -17,8 +17,6 @@ Future<void> test() async {
 
   List timeList = tMap["time"];
 
-  data = data.reversed.toList();
-
   for (int i = 0; i < data.length; i++) {
     Map e = data[i];
     // String t = timeList[i];
@@ -27,11 +25,13 @@ Future<void> test() async {
     String from = e["from"];
     String message = "";
 
-    // DateTime? time = DateTime.tryParse(t);
-    //
-    //  e["timestamp"] = time?.millisecondsSinceEpoch;
-    //
-    //  e["timestamp"] =  e["timestamp"] / 1000;
+    String time =  e["time"];
+
+    DateTime? dtime = DateTime.tryParse(time);
+
+     e["timestamp"] = dtime?.millisecondsSinceEpoch;
+
+     e["timestamp"] =  (e["timestamp"] / 1000).toInt();
 
     if (from == "+8618200000000") {
       from = "amy";
@@ -41,6 +41,7 @@ Future<void> test() async {
 
     switch (type) {
       case -4:
+      case -2:
         message = e["typeMsgData"]["_lcfile"]["url"];
         break;
       case -1:
