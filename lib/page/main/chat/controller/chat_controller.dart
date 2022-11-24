@@ -68,7 +68,7 @@ class ChatController extends BaseXController {
 
         if (conversation!.members!.contains("+8618200000001")) {
           var jsonChat =
-              await rootBundle.loadString('assets/json/ying_chat.json');
+              await rootBundle.loadString('assets/json/ying_all.json');
           List data = json.decode(jsonChat);
 
           _messages = data.map((e) {
@@ -80,7 +80,7 @@ class ChatController extends BaseXController {
           messages.addAll(_messages);
         } else if (conversation!.members!.contains("+8618200000002")) {
           var jsonChat =
-              await rootBundle.loadString('assets/json/tang_chat.json');
+              await rootBundle.loadString('assets/json/xiaojie_all.json');
           List data = json.decode(jsonChat);
 
           _messages = data.map((e) {
@@ -90,6 +90,18 @@ class ChatController extends BaseXController {
           }).toList();
           messages.clear();
           messages.addAll(_messages);
+
+          // jsonChat =
+          // await rootBundle.loadString('assets/json/tang_chat.json');
+          // data = json.decode(jsonChat);
+          //
+          //
+          // data = data.reversed.toList();
+          //
+          // String s = json.encode(data);
+          //
+          // debugPrint("$s");
+
         } else {
           _messages = await conversation!.queryMessage(
             startMessageID: messages.safetyItem(messages.length - 1)?.id,
