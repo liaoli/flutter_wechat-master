@@ -77,7 +77,7 @@ class ChatController extends BaseXController {
             );
           }).toList();
           messages.clear();
-          messages.addAll(_messages);
+          messages.addAll(_messages.reversed);
         } else if (conversation!.members!.contains("+8618200000002")) {
           var jsonChat =
               await rootBundle.loadString('assets/json/xiaojie_all.json');
@@ -89,7 +89,7 @@ class ChatController extends BaseXController {
             );
           }).toList();
           messages.clear();
-          messages.addAll(_messages);
+          messages.addAll(_messages.reversed);
 
           // jsonChat =
           // await rootBundle.loadString('assets/json/tang_chat.json');
