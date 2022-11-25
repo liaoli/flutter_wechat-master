@@ -58,7 +58,6 @@ class MessageItem extends StatelessWidget {
   }
 
   _buildAvatar() {
-
     String? avatar;
     switch (message.fromClientID) {
       case "+8618200000001":
@@ -86,8 +85,10 @@ class MessageItem extends StatelessWidget {
     if (lastMessage == null) {
       showTime = true;
     } else {
-      if ((message.sentTimestamp ?? 0) - (lastMessage?.sentTimestamp ?? 0) >
-          300 * 1000) {
+      bool flag =
+          (message.sentTimestamp ?? 0) - (lastMessage?.sentTimestamp ?? 0) >
+              300;
+      if (flag) {
         ///与上一条消息差距5分钟就显示时间
         showTime = true;
       }
