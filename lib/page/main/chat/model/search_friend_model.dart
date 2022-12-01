@@ -4,12 +4,16 @@
 
 import 'dart:convert';
 
+import 'package:leancloud_official_plugin/leancloud_plugin.dart';
+
 class SearchFriendModel {
   SearchFriendModel({
+    required this.message,
     required this.nikeName,
     required this.phone,
   });
 
+  List<Message> message;
   String nikeName;
   String phone;
 
@@ -22,6 +26,11 @@ class SearchFriendModel {
       SearchFriendModel(
         nikeName: json["nike_name"],
         phone: json["phone"],
+        message: json["message"].map((e) {
+          return Message.instanceFrom(
+            e,
+          );
+        }).toList(),
       );
 
   Map<String, dynamic> toMap() => {
