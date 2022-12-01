@@ -126,15 +126,13 @@ class _SearchPageState extends State<SearchPage> {
               _searchData(text);
             },
           ),
-          Expanded(
-            child: _models.isEmpty
-                ? searchType()
-                : MediaQuery.removePadding(
-                    removeTop: true,
-                    context: context,
-                    child: searchResult(),
-                  ),
-          )
+          _models.isEmpty
+              ? searchType()
+              : MediaQuery.removePadding(
+                  removeTop: true,
+                  context: context,
+                  child: searchResult(),
+                ),
         ],
       ),
     );
@@ -149,31 +147,32 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   Widget _sliverListItemWidget() {
-
-
     return Column(
-      children: [],
+      children: [
+        Text("好友"),
+        Expanded(
+          child: contact(),
+        ),
+      ],
     );
-
-
   }
 
   ListView contact() {
     return ListView.builder(
-                      itemCount: _models.length,
-                      itemBuilder: (context, i) {
-                        SearchFriendModel m = _models[i];
+        itemCount: _models.length,
+        itemBuilder: (context, i) {
+          SearchFriendModel m = _models[i];
 
-                        return FriendItem(friend: m);
-                        // return Container(
-                        //   child: Column(
-                        //     children: [
-                        //       _searchTitle(m.nikeName),
-                        //       _searchTitle(m.phone),
-                        //     ],
-                        //   ),
-                        // );
-                      });
+          return FriendItem(friend: m);
+          // return Container(
+          //   child: Column(
+          //     children: [
+          //       _searchTitle(m.nikeName),
+          //       _searchTitle(m.phone),
+          //     ],
+          //   ),
+          // );
+        });
   }
 
   //满足查找条件的数据数组
@@ -227,6 +226,4 @@ class _SearchPageState extends State<SearchPage> {
     }
     return RichText(text: TextSpan(children: textSpans));
   }
-
-
 }
