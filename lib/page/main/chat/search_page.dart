@@ -140,6 +140,24 @@ class _SearchPageState extends State<SearchPage> {
     );
   }
 
+  Widget searchResult() {
+    return SliverList(
+      delegate: SliverChildBuilderDelegate((BuildContext context, int index) {
+        return _sliverListItemWidget();
+      }, childCount: 0),
+    );
+  }
+
+  Widget _sliverListItemWidget() {
+
+
+    return Column(
+      children: [],
+    );
+
+
+  }
+
   ListView contact() {
     return ListView.builder(
                       itemCount: _models.length,
@@ -210,16 +228,5 @@ class _SearchPageState extends State<SearchPage> {
     return RichText(text: TextSpan(children: textSpans));
   }
 
-  Widget searchResult() {
-    return SliverList(
-      delegate: SliverChildBuilderDelegate((BuildContext context, int index) {
-        return _sliverListItemWidget();
-      }, childCount: 0),
-    );
-  }
 
-  Widget _sliverListItemWidget() {
-
-
-  }
 }
