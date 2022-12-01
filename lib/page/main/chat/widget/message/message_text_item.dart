@@ -13,13 +13,22 @@ class MessageTextItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      constraints: BoxConstraints(maxWidth: 200.w),
-      padding: EdgeInsets.symmetric(vertical: 20.w, horizontal: 10.w),
-      decoration:
-          (message.isSend ? Colours.c_98E165 : Colours.white).boxDecoration(),
-      child:  videoPhoneItem(),
-    );
+    if (message.text!.contains("通话时长") || message.text!.contains("对方已取消")) {
+
+       double w = 320.w;
+
+       if(message.text!.contains("对方已取消")){
+         w = 260.w;
+       }
+
+      return Container(
+        constraints: BoxConstraints(maxWidth: w),
+        padding: EdgeInsets.symmetric(vertical: 20.w, horizontal: 10.w),
+        decoration:
+            (message.isSend ? Colours.c_98E165 : Colours.white).boxDecoration(),
+        child: videoPhoneItem(),
+      );
+    }
 
     return Container(
       constraints: BoxConstraints(maxWidth: 400.w),
@@ -34,13 +43,34 @@ class MessageTextItem extends StatelessWidget {
   }
 
   Widget videoPhoneItem() {
+    if (!message.isSend) {
+      return Row(
+        children: [
+          Image.asset(
+            Utils.getChatImgPath("phone"),
+            width: 40.w,
+            height: 40.w,
+          ),
+          SizedBox(width: 20.w,),
+          Text(
+            message.text ?? "",
+            style: TextStyle(color: Colours.black, fontSize: 32.sp),
+          ),
+        ],
+      );
+    }
+
     return Row(
+      mainAxisAlignment: MainAxisAlignment.end,
       children: [
-        Text("视频通话 12:26",style: TextStyle(color: Colours.black,fontSize: 32.sp),),
+        Text(
+          message.text ?? "",
+          style: TextStyle(color: Colours.black, fontSize: 32.sp),
+        ),
         Image.asset(
-          Utils.getChatImgPath("vedio_left"),
-          width: 60.w,
-          height: 60.w,
+          Utils.getChatImgPath("phone"),
+          width: 40.w,
+          height: 40.w,
         ),
       ],
     );

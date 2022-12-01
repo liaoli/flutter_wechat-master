@@ -31,11 +31,11 @@ class MessageAudioItem extends StatelessWidget {
         decoration: (Colours.white).boxDecoration(),
         child: Row(
           mainAxisSize: MainAxisSize.min,
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          // mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Obx(()=> AudioPlayWidget(AudioManager.playAudioMessage.value == message,isSend)),
-            Text(message.duration?.toString()??'',style: TextStyle(color: Colours.black,fontSize: 24.sp),)
+            Text("${message.duration?.toInt()?.toString()??''}\"",style: TextStyle(color: Colours.black,fontSize: 24.sp),)
           ],
         ),
       ),

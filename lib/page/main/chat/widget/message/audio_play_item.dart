@@ -66,7 +66,7 @@ class _AudioPlayWidgetState extends State<AudioPlayWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Image.asset(Utils.getChatImgPath(widget.isPlay?widget.isSend?'message_voice_send_$_count':'message_voice_receive_$_count':widget.isSend?'message_voice_send_0':'message_voice_receive_0'),width: 40.w,height: 40.w,);
+    return Image.asset(Utils.getChatImgPath(widget.isSend?'audiorignt':"audioleft"),width: 40.w,height: 40.w,);
   }
 
   @override

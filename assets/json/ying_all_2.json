@@ -5,7 +5,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "姐，上次跟您说东莞厚街这边有首付10多万就可以有两房了，花园小区带红本，月供1500左右，你什么时间方便可以过来看一下￼性价比很高，非常适合投资~有空可以过来看一下哦￼",
+      "_lctext": "姐，上次跟您说东莞厚街这边有首付10多万就可以有两房了，花园小区带红本，月供1500左右，你什么时间方便可以过来看一下[sg18]性价比很高，非常适合投资~有空可以过来看一下哦[sg54]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -46,7 +46,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "姐，最近有空看房么￼~有空的话随时微信我哦~我这边帮您申请团购优惠￼",
+      "_lctext": "姐，最近有空看房么[sg18]~有空的话随时微信我哦~我这边帮您申请团购优惠[sg18]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -61,7 +61,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "姐，上次跟你说的楼盘湖景公寓那里，最近这边做团购活动，有格外特别的折扣呢哦~价格非常实惠，卖的特别好，您要不要过来看下￼",
+      "_lctext": "姐，上次跟你说的楼盘湖景公寓那里，最近这边做团购活动，有格外特别的折扣呢哦~价格非常实惠，卖的特别好，您要不要过来看下[sg54]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -151,7 +151,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[音视频通话]",
+      "_lctext": "通话时长 01:20",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -841,7 +841,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "￼",
+      "_lctext": "[sg60]",
       "_lcattrs": null
     },
     "from": "+8618200000001",
@@ -850,32 +850,52 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":8,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657619400,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657609260,
+    "status":0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":3,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657619400,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657619400,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -906,18 +926,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":8,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657619580,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657619580,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -939,7 +969,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "两个一样送吗[捂脸]",
+      "_lctext": "两个一样送吗[sg97]",
       "_lcattrs": null
     },
     "from": "+8618200000001",
@@ -953,7 +983,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "姐，你说的啥，我没听懂￼",
+      "_lctext": "姐，你说的啥，我没听懂[sg3]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -967,7 +997,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "我说送东西是不是只送给我[捂脸]",
+      "_lctext": "我说送东西是不是只送给我[sg97]",
       "_lcattrs": null
     },
     "from": "+8618200000001",
@@ -981,7 +1011,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "对呀，只送给你￼",
+      "_lctext": "对呀，只送给你[sg3]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -1037,7 +1067,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "姐，你提前把她的名字和电话发给我一下￼",
+      "_lctext": "姐，你提前把她的名字和电话发给我一下[sg1]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -1230,18 +1260,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":19,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657875600,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657875600,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -1263,7 +1303,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "￼￼￼",
+      "_lctext": "[sg1][sg1][sg28]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -1389,7 +1429,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "你家的那个是别人抢着要的￼",
+      "_lctext": "你家的那个是别人抢着要的[sg3]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -1398,18 +1438,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":14,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657875720,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657875720,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -1426,18 +1476,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":20,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657876140,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657876140,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -1473,7 +1533,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[音视频通话]",
+      "_lctext": "对方已取消",
       "_lcattrs": null
     },
     "from": "+8618200000001",
@@ -1482,32 +1542,52 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":41,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657957260,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657957260,
+    "status":0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":56,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657971360,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657971360,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -1524,18 +1604,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":19,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657971480,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657971480,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -1552,32 +1642,52 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":60,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657972080,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657972080,
+    "status":0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":19,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1657972080,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1657972080,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -1678,18 +1788,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":9,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658112060,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658112060,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -1711,7 +1831,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "￼",
+      "_lctext": "[sg60]",
       "_lcattrs": null
     },
     "from": "+8618200000001",
@@ -1776,18 +1896,52 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":14,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658112480,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658112480,
+    "status":0
+  },
+  {
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":26,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
+    },
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658112540,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -1795,21 +1949,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
-    },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658112540,
-    "status": 0
-  },
-  {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "好的，没关系，等下看看另一个朋友想不想来￼",
+      "_lctext": "好的，没关系，等下看看另一个朋友想不想来[sg28]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -1837,7 +1977,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "我那个朋友跟我去，但她不买[捂脸]",
+      "_lctext": "我那个朋友跟我去，但她不买[sg97]",
       "_lcattrs": null
     },
     "from": "+8618200000001",
@@ -1893,7 +2033,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[捂脸]",
+      "_lctext": "[sg97]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -1921,7 +2061,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "那没关系，要不先报备一下吧，买不买再说[捂脸]",
+      "_lctext": "那没关系，要不先报备一下吧，买不买再说[sg97]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -1963,7 +2103,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "我怕她万一买￼，哈哈",
+      "_lctext": "我怕她万一买[sg3]，哈哈",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -2117,7 +2257,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "好的姐，你这边有什么事儿？有什么问题你随时给我微信哈[抱拳]",
+      "_lctext": "好的姐，你这边有什么事儿？有什么问题你随时给我微信哈[sg54]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -2131,7 +2271,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "然后今天那个朋友呢，他看着就也还行，到时候我们看他有没有意向，如果他姐有意向的话，我也会跟你说的哈[爱心][爱心][呲牙][呲牙]",
+      "_lctext": "然后今天那个朋友呢，他看着就也还行，到时候我们看他有没有意向，如果他姐有意向的话，我也会跟你说的哈[sg28][sg28][sg1][sg1]",
       "_lcattrs": null
     },
     "from": "+8618200000000",
@@ -2179,32 +2319,52 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":10,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658140920,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658140920,
+    "status":0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":17,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658140980,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658140980,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -2221,18 +2381,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":4,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658140980,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658140980,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -2277,18 +2447,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":7,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658199780,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658199780,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -2347,32 +2527,52 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":10,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658202780,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658202780,
+    "status":0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":12,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658202840,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658202840,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -2414,18 +2614,28 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":15,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658203380,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658203380,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -2456,32 +2666,53 @@
     "status": 0
   },
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":2,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658203920,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658203920,
+    "status":0
   },
+
   {
-    "mentionAll": false,
-    "conversationId": "62d6797b4fbbaa8db413b723",
-    "io": 2,
-    "typeMsgData": {
-      "_lctype": -1,
-      "_lctext": "[语音]",
-      "_lcattrs": null
+    "mentionAll":false,
+    "conversationId":"62d6797b4fbbaa8db413b723",
+    "io":2,
+    "typeMsgData":{
+      "_lctype":-3,
+      "_lcfile":{
+        "metaData":{
+          "duration":18,
+          "filename":"1661141176676.aac",
+          "format":"aac",
+          "size":-1
+        },
+        "objId":"630300c9bcce5a6dbb03f631",
+        "url":"http://lc-jjdYaY3R.cn-n1.lcfile.com/6zJ4OPzV5qftvfRL2sNYz6KHni9PDIBE/1661141176676.aac"
+      },
+      "_lctext":null,
+      "_lcattrs":null
     },
-    "from": "+8618200000001",
-    "id": "oiatsqM+SteU8qPL2kZApQ",
-    "timestamp": 1658214540,
-    "status": 0
+    "from":"+8618200000001",
+    "id":"hyJ9d6HER5C7ZcD3rUxBxQ",
+    "timestamp":1658214540,
+    "status":0
   },
   {
     "mentionAll": false,
@@ -2531,7 +2762,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "￼",
+      "_lctext": "[sg60]",
       "_lcattrs": null
     },
     "from": "+8618200000001",
@@ -2671,7 +2902,7 @@
     "io": 2,
     "typeMsgData": {
       "_lctype": -1,
-      "_lctext": "[音视频通话]",
+      "_lctext": "对方已取消",
       "_lcattrs": null
     },
     "from": "+8618200000001",
