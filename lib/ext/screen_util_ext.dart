@@ -22,6 +22,10 @@ class ScreenUtilExt {
   static double getWidth() {
     return ScreenUtil.getInstance().screenWidth;
   }
+
+  static double getStatusBarHeight() {
+    return ScreenUtil.getInstance().statusBarHeight;
+  }
 }
 
 extension DensityIntExt on num {
