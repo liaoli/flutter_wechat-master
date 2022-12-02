@@ -1,6 +1,7 @@
 library calendar_list;
 
 import 'package:flutter/material.dart';
+import 'package:wechat/color/colors.dart';
 
 import 'month_view.dart';
 import 'weekday_row.dart';
@@ -99,7 +100,7 @@ class _CalendarListState extends State<CalendarList> {
                 decoration: BoxDecoration(
                   // border: Border.all(width: 3, color: Color(0xffaaaaaa)),
                   // 实现阴影效果
-                  color: Colors.white,
+                  color: Colors.white70,
                   // boxShadow: [
                   //   BoxShadow(
                   //       color: Colors.black12,
