@@ -11,6 +11,7 @@ import 'package:wechat/page/login/verify_machine_page.dart';
 import 'package:wechat/page/login/zone_code_page.dart';
 import 'package:wechat/page/main/chat/chat_detail_page.dart';
 import 'package:wechat/page/main/chat/chat_group_edit_name_page.dart';
+import 'package:wechat/page/main/chat/chat_info_page.dart';
 import 'package:wechat/page/main/chat/chat_page.dart';
 import 'package:wechat/page/main/chat/page/pay_password/pay_password_page.dart';
 import 'package:wechat/page/main/chat/page/red_packet/red_packet_detail_page.dart';
@@ -170,6 +171,10 @@ class AppPages {
     _getPage(
       name: ChatDetailPage.routeName,
       page: () => ChatDetailPage(),
+    ),
+    _getPage(
+      name: ChatInfoPage.routeName,
+      page: () => ChatInfoPage(),
     ),
     _getPage(
       name: QrcodeGroupChatPage.routeName,

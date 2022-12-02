@@ -70,14 +70,15 @@ class MessageItem extends StatelessWidget {
     }
 
     return TapWidget(
-        onTap: () {
-          NavigatorUtils.toNamed(FriendDetailPage.routeName,
-              arguments: message.fromClientID);
-        },
-        child: AvatarWidget(
-          avatar: avatar,
-          weightWidth: 80.w,
-        ));
+      onTap: () {
+        NavigatorUtils.toNamed(FriendDetailPage.routeName,
+            arguments: message.fromClientID);
+      },
+      child: AvatarWidget(
+        avatar: avatar,
+        weightWidth: 80.w,
+      ),
+    );
   }
 
   Widget _buildMsgTime() {

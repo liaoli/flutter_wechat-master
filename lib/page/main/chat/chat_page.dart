@@ -14,6 +14,7 @@ import '../../../color/colors.dart';
 import '../../../utils/utils.dart';
 import '../../../widget/tap_widget.dart';
 import 'chat_detail_page.dart';
+import 'chat_info_page.dart';
 
 class ChatPage extends BaseGetBuilder<ChatController>{
 
@@ -27,7 +28,8 @@ class ChatPage extends BaseGetBuilder<ChatController>{
       actions: [
         TapWidget(onTap: () async {
           if(controller.conversation != null){
-            NavigatorUtils.toNamed(ChatDetailPage.routeName,arguments:controller.conversation);
+            // NavigatorUtils.toNamed(ChatDetailPage.routeName,arguments:controller.conversation);
+            NavigatorUtils.toNamed(ChatInfoPage.routeName,arguments:controller.conversation);
           }
         }, child: Image.asset(Utils.getImgPath('ic_more_black',dir: Utils.DIR_ICON,),width: 40.w,height: 40.w,))
       ],
