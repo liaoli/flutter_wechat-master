@@ -45,7 +45,7 @@ class _SearchPageState extends State<SearchPage> {
         margin: EdgeInsets.symmetric(vertical: 15.w),
         child: Text(
           item,
-          style: TextStyle(color: Colors.green),
+          style: TextStyle(color: Colours.c_FF6073FF,fontWeight: FontWeight.w700),
         ),
       ),
       onTap: () => '$item功能小编正在开发'.toast(),
@@ -58,7 +58,7 @@ class _SearchPageState extends State<SearchPage> {
         margin: EdgeInsets.symmetric(vertical: 15.w),
         child: Text(
           item,
-          style: TextStyle(color: Colors.green),
+          style: TextStyle(color: Colours.c_FFA6A6A6),
         ),
       ),
       onTap: () => '$item功能小编正在开发'.toast(),
@@ -75,10 +75,10 @@ class _SearchPageState extends State<SearchPage> {
             padding: EdgeInsets.symmetric(vertical: 10.w),
             child: Text(
               '搜索指定内容',
-              style: TextStyle(color: Colours.c_555555),
+              style: TextStyle(color: Colours.c_FFA7A7A7),
             ),
           ),
-          Colours.c_555555.toLine(1.w),
+          Colours.c_FFE8E8E8.toLine(1.w),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: words.map(wordView).toList(),
@@ -87,10 +87,10 @@ class _SearchPageState extends State<SearchPage> {
             padding: EdgeInsets.symmetric(vertical: 10.w),
             child: Text(
               '搜索发现',
-              style: TextStyle(color: Colours.c_555555),
+              style: TextStyle(color: Colours.c_FFC0C0C0),
             ),
           ),
-          Colours.c_555555.toLine(1.w),
+          Colours.c_FFE8E8E8.toLine(1.w),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: hots.map(hotView).toList(),

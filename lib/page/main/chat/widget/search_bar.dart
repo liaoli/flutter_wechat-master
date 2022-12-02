@@ -92,7 +92,10 @@ class _SearchBarState extends State<SearchBar> {
                   onTap: () {
                     Navigator.pop(context);
                   },
-                  child: Text('取消'),
+                  child: Text('取消',style: TextStyle(
+                    color: Colours.c_FF6073FF,
+                    fontSize: 32.sp,
+                  ),),
                 ), //右边取消按钮
               ],
             ),
