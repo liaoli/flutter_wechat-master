@@ -4,9 +4,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:wechat/core.dart';
+import 'package:wechat/page/main/chat/search_chat_page.dart';
 import 'package:wechat/page/main/chat/widget/label_row.dart';
 
 import '../../../language/strings.dart';
+import '../../../utils/navigator_utils.dart';
 import '../../../widget/base_scaffold.dart';
 import 'widget/chat_mamber.dart';
 
@@ -60,7 +62,8 @@ class _ChatInfoPageState extends State<ChatInfoPage> {
         label: '查找聊天记录',
         margin: EdgeInsets.only(top: 10.0),
         onPressed: (){
-          //TODO:
+
+          NavigatorUtils.toNamed(SearchChatPage.routeName,arguments: "");
         },
       ),
        Column(

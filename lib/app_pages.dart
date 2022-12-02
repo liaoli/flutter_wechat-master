@@ -18,6 +18,7 @@ import 'package:wechat/page/main/chat/page/red_packet/red_packet_detail_page.dar
 import 'package:wechat/page/main/chat/page/red_packet/red_packet_preview_page.dart';
 import 'package:wechat/page/main/chat/page/red_packet/send_red_packet_page.dart';
 import 'package:wechat/page/main/chat/qrcode_group_chat_page.dart';
+import 'package:wechat/page/main/chat/search_chat_page.dart';
 import 'package:wechat/page/main/contacts/select_friend_page.dart';
 import 'package:wechat/page/main/contacts/add_friend_page.dart';
 import 'package:wechat/page/main/contacts/friend_detail_page.dart';
@@ -48,9 +49,7 @@ import 'package:wechat/page/util/video_perview_page.dart';
 import 'package:wechat/page/util/webview_page.dart';
 
 class AppPages {
-
   static final List<GetPage> routes = [
-
     _getPage(
       name: '/',
       page: () => SplashPage(),
@@ -60,10 +59,9 @@ class AppPages {
       page: () => RegisterPage(),
     ),
     _getPage(
-      name: CropImagePage.routeName,
-      page: () => CropImagePage(),
-      popGesture: false
-    ),
+        name: CropImagePage.routeName,
+        page: () => CropImagePage(),
+        popGesture: false),
     _getPage(
       name: ZoneCodePage.routeName,
       page: () => ZoneCodePage(),
@@ -140,26 +138,24 @@ class AppPages {
       name: PhotoPreviewPage.routeName,
       page: () => PhotoPreviewPage(),
       opaque: false,
-      fullscreenDialog:true,
+      fullscreenDialog: true,
     ),
     _getPage(
       name: SendRedPacketPage.routeName,
       page: () => SendRedPacketPage(),
     ),
     _getPage(
-      name: RedPacketPreviewPage.routeName,
-      page: () => RedPacketPreviewPage(),
-      opaque: false,
-      transition: Transition.fade,
-      fullscreenDialog:true
-    ),
+        name: RedPacketPreviewPage.routeName,
+        page: () => RedPacketPreviewPage(),
+        opaque: false,
+        transition: Transition.fade,
+        fullscreenDialog: true),
     _getPage(
-      name: PayPasswordPage.routeName,
-      page: () => const PayPasswordPage(),
-      transition: Transition.fade,
-      opaque: false,
-      fullscreenDialog:true
-    ),
+        name: PayPasswordPage.routeName,
+        page: () => const PayPasswordPage(),
+        transition: Transition.fade,
+        opaque: false,
+        fullscreenDialog: true),
     _getPage(
       name: SelectFriendPage.routeName,
       page: () => const SelectFriendPage(),
@@ -175,6 +171,10 @@ class AppPages {
     _getPage(
       name: ChatInfoPage.routeName,
       page: () => ChatInfoPage(),
+    ),
+    _getPage(
+      name: SearchChatPage.routeName,
+      page: () => SearchChatPage(),
     ),
     _getPage(
       name: QrcodeGroupChatPage.routeName,
@@ -220,7 +220,7 @@ class AppPages {
       name: ChannelsVideoEditPage.routeName,
       page: () => ChannelsVideoEditPage(),
       popGesture: false,
-      fullscreenDialog:true,
+      fullscreenDialog: true,
     ),
     _getPage(
       name: ChannelsCreatePage.routeName,
@@ -229,7 +229,7 @@ class AppPages {
     _getPage(
       name: ChannelsSelectCoverPage.routeName,
       page: () => const ChannelsSelectCoverPage(),
-      fullscreenDialog:true,
+      fullscreenDialog: true,
     ),
     _getPage(
       name: ChannelsPreviewPage.routeName,
@@ -249,22 +249,25 @@ class AppPages {
     ),
   ];
 
-  static GetPage _getPage({
-    required String name,
-    required GetPageBuilder page,
-    Bindings? binding,
-    Transition? transition,
-    bool opaque = true,
-    bool fullscreenDialog = false,
-    bool? popGesture
-  }) {
+  static GetPage _getPage(
+      {required String name,
+      required GetPageBuilder page,
+      Bindings? binding,
+      Transition? transition,
+      bool opaque = true,
+      bool fullscreenDialog = false,
+      bool? popGesture}) {
     return GetPage(
       name: name,
       binding: binding,
-      opaque: opaque,///是否透明页面
-      transition: transition,///页面过度效果
+      opaque: opaque,
+
+      ///是否透明页面
+      transition: transition,
+
+      ///页面过度效果
       fullscreenDialog: fullscreenDialog,
-      popGesture:popGesture,
+      popGesture: popGesture,
       page: () {
         debugPrint('pageName=$name');
         return page();
