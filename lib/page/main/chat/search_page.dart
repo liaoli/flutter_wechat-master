@@ -45,7 +45,8 @@ class _SearchPageState extends State<SearchPage> {
         margin: EdgeInsets.symmetric(vertical: 15.w),
         child: Text(
           item,
-          style: TextStyle(color: Colours.c_FF6073FF,fontWeight: FontWeight.w700),
+          style:
+              TextStyle(color: Colours.c_FF6073FF, fontWeight: FontWeight.w700),
         ),
       ),
       onTap: () => '$item功能小编正在开发'.toast(),
@@ -139,10 +140,12 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   Widget searchResult() {
-    return SliverList(
-      delegate: SliverChildBuilderDelegate((BuildContext context, int index) {
-        return _sliverListItemWidget();
-      }, childCount: 0),
+    return Expanded(
+      child: CustomScrollView(
+        slivers: [
+          contact(),
+        ],
+      ),
     );
   }
 
@@ -157,22 +160,14 @@ class _SearchPageState extends State<SearchPage> {
     );
   }
 
-  ListView contact() {
-    return ListView.builder(
-        itemCount: _models.length,
-        itemBuilder: (context, i) {
-          SearchFriendModel m = _models[i];
+  Widget contact() {
+    return SliverList(
+      delegate: SliverChildBuilderDelegate((BuildContext context, int index) {
+        SearchFriendModel m = _models[index];
 
-          return FriendItem(friend: m);
-          // return Container(
-          //   child: Column(
-          //     children: [
-          //       _searchTitle(m.nikeName),
-          //       _searchTitle(m.phone),
-          //     ],
-          //   ),
-          // );
-        });
+        return FriendItem(friend: m,searchText: _searchStr,);
+      }, childCount: _models.length),
+    );
   }
 
   //满足查找条件的数据数组
@@ -200,30 +195,4 @@ class _SearchPageState extends State<SearchPage> {
     setState(() {});
   }
 
-  TextStyle _normalStyle = TextStyle(
-    fontSize: 16,
-    color: Colors.black,
-  );
-  TextStyle _hightlightedStyle = TextStyle(
-    fontSize: 16,
-    color: Colors.green,
-  );
-
-  Widget _searchTitle(String name) {
-    List<TextSpan> textSpans = [];
-
-    List<String> searchStrs = name.split(_searchStr);
-    for (int i = 0; i < searchStrs.length; i++) {
-      String str = searchStrs[i];
-      if (str == '' && i < searchStrs.length - 1) {
-        textSpans.add(TextSpan(text: _searchStr, style: _hightlightedStyle));
-      } else {
-        textSpans.add(TextSpan(text: str, style: _normalStyle));
-        if (i < searchStrs.length - 1) {
-          textSpans.add(TextSpan(text: _searchStr, style: _hightlightedStyle));
-        }
-      }
-    }
-    return RichText(text: TextSpan(children: textSpans));
-  }
 }
