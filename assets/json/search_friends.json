@@ -1,19 +1,26 @@
 [
   {
-    "nike_name":"小杰",
+    "nike_name":"1883359210",
     "phone":"1883359210",
-    "message":[],
+    "avatar":"https://goerp.oss-cn-hongkong.aliyuncs.com/apk/erp/18200000002.jpeg",
+    "message":[
+
+    ],
     "type":1
   },
   {
-    "nike_name":"小杰",
+    "nike_name":"17727560090 刘",
     "phone":"17727560090",
-    "message":[],
+    "avatar":"https://goerp.oss-cn-hongkong.aliyuncs.com/apk/erp/18200000002.jpeg",
+    "message":[
+
+    ],
     "type":1
   },
   {
-    "nike_name":"小杰",
+    "nike_name":"17727560090 小杰",
     "phone":"17727560090",
+    "avatar":"https://goerp.oss-cn-hongkong.aliyuncs.com/apk/erp/18200000002.jpeg",
     "message":[
       {
         "mentionAll":false,

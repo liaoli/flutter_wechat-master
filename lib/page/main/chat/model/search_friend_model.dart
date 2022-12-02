@@ -11,12 +11,13 @@ class SearchFriendModel {
     required this.message,
     required this.nikeName,
     required this.phone,
+    required this.avatar,
   });
 
   List<dynamic> message;
   String nikeName;
   String phone;
-
+  String avatar;
   factory SearchFriendModel.fromJson(String str) =>
       SearchFriendModel.fromMap(json.decode(str));
 
@@ -34,11 +35,13 @@ class SearchFriendModel {
       nikeName: json["nike_name"],
       phone: json["phone"],
       message: message,
+      avatar: json["avatar"]
     );
   }
 
   Map<String, dynamic> toMap() => {
         "nike_name": nikeName,
         "phone": phone,
+        "avatar": avatar,
       };
 }

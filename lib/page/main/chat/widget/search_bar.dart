@@ -28,11 +28,11 @@ class _SearchBarState extends State<SearchBar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 84,
+      // height: 84.w,
       // color: Colours.white,
       child: Column(
         children: [
-          SizedBox(height: 40.w,), //上半部分留空
+          // SizedBox(height: 40.w,), //上半部分留空
           Container(
             height: 88.w,
             margin: EdgeInsets.only(left: 30.w,right: 30.w),

@@ -9,6 +9,7 @@ import 'package:wechat/ext/toast_ext.dart';
 import 'package:wechat/page/main/chat/model/friend_item.dart';
 import 'package:wechat/page/main/chat/widget/search_bar.dart';
 
+import '../../../utils/utils.dart';
 import 'model/search_friend_model.dart';
 
 class SearchPage extends StatefulWidget {
@@ -143,20 +144,38 @@ class _SearchPageState extends State<SearchPage> {
     return Expanded(
       child: CustomScrollView(
         slivers: [
-          contact(),
+          if (_models.isNotEmpty) contactHead(),
+          if (_models.isNotEmpty) contact(),
+          SliverToBoxAdapter(
+            child: SizedBox(
+              height: 10.w,
+            ),
+          ),
+          SearchRecordHead(),
         ],
       ),
     );
   }
 
-  Widget _sliverListItemWidget() {
-    return Column(
-      children: [
-        Text("好友"),
-        Expanded(
-          child: contact(),
+  SliverToBoxAdapter contactHead() {
+    return SliverToBoxAdapter(
+      child: Container(
+        color: Colours.white,
+        padding: EdgeInsets.only(left: 20.w, bottom: 0.w),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: EdgeInsets.only(left: 10.w, bottom: 20.w, top: 20.w),
+              child: Text(
+                '联系人',
+                style: TextStyle(color: Colours.c_FFC0C0C0, fontSize: 32.sp),
+              ),
+            ),
+            Colours.c_CCCCCC.toLine(1.w),
+          ],
         ),
-      ],
+      ),
     );
   }
 
@@ -165,8 +184,112 @@ class _SearchPageState extends State<SearchPage> {
       delegate: SliverChildBuilderDelegate((BuildContext context, int index) {
         SearchFriendModel m = _models[index];
 
-        return FriendItem(friend: m,searchText: _searchStr,);
+        return FriendItem(
+          friend: m,
+          searchText: _searchStr,
+        );
       }, childCount: _models.length),
+    );
+  }
+
+  SliverToBoxAdapter chatRecordHead() {
+    return SliverToBoxAdapter(
+      child: Container(
+        color: Colours.white,
+        padding: EdgeInsets.only(left: 20.w, bottom: 0.w),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: EdgeInsets.only(left: 10.w, bottom: 20.w, top: 20.w),
+              child: Text(
+                '聊天记录',
+                style: TextStyle(color: Colours.c_FFC0C0C0, fontSize: 32.sp),
+              ),
+            ),
+            Colours.c_CCCCCC.toLine(1.w),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget chatRecord() {
+    return SliverList(
+      delegate: SliverChildBuilderDelegate((BuildContext context, int index) {
+        SearchFriendModel m = _models[index];
+
+        return FriendItem(
+          friend: m,
+          searchText: _searchStr,
+        );
+      }, childCount: _models.length),
+    );
+  }
+
+  SliverToBoxAdapter SearchRecordHead() {
+    return SliverToBoxAdapter(
+      child: Container(
+        color: Colours.white,
+        padding: EdgeInsets.only(left: 40.w, bottom: 0.w, right: 30.w),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Image.asset(
+                  Utils.getImgPath('search_more', dir: 'chat'),
+                  width: 60.w,
+                  height: 60.w,
+                ),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: EdgeInsets.only(
+                          left: 10.w,
+                        ),
+                        child: Text.rich(
+                          TextSpan(
+                            children: [
+                              TextSpan(
+                                text: "搜索 ",
+                              ),
+                              TextSpan(
+                                style: TextStyle(
+                                    color: Colours.theme_color,
+                                    fontSize: 40.sp),
+                                text: _searchStr,
+                              ),
+                            ],
+                          ),
+                          style:
+                              TextStyle(color: Colours.black, fontSize: 40.sp),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.only(left: 10.w),
+                        child: Text(
+                          '小程序、公众号、文章、朋友圈和表情等',
+                          style: TextStyle(
+                              color: Colours.c_FFC0C0C0, fontSize: 32.sp),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Icon(
+                  Icons.arrow_forward_ios,
+                  size: 30.w,
+                  color: Colours.c_FFC0C0C0,
+                ),
+              ],
+            ),
+            Colours.c_CCCCCC.toLine(1.w),
+          ],
+        ),
+      ),
     );
   }
 
@@ -194,5 +317,4 @@ class _SearchPageState extends State<SearchPage> {
     }
     setState(() {});
   }
-
 }

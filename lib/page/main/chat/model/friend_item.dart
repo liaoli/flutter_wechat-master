@@ -53,7 +53,7 @@ class FriendItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 AvatarWidget(
-                  avatar: "",
+                  avatar: friend.avatar,
                   weightWidth: 80.w,
                 ),
                 20.sizedBoxW,
