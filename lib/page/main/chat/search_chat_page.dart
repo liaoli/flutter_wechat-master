@@ -34,24 +34,24 @@ class _SearchChatPageState extends State<SearchChatPage> {
     );
   }
 
-  Widget body() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: <Widget>[
-        Padding(
-          padding: EdgeInsets.symmetric(vertical: 60.w),
-          child: Text(
-            '搜索指定内',
-            style: TextStyle(color: Colours.c_FFA7A7A7),
-          ),
-        ),
-        SizedBox(height: 100.w,),
-        Wrap(
-          children: words.map(wordView).toList(),
-        )
-      ],
-    );
-  }
+  // Widget body() {
+  //   return Column(
+  //     crossAxisAlignment: CrossAxisAlignment.center,
+  //     children: <Widget>[
+  //       Padding(
+  //         padding: EdgeInsets.symmetric(vertical: 60.w),
+  //         child: Text(
+  //           '搜索指定内',
+  //           style: TextStyle(color: Colours.c_FFA7A7A7),
+  //         ),
+  //       ),
+  //       SizedBox(height: 100.w,),
+  //       Wrap(
+  //         children: words.map(wordView).toList(),
+  //       )
+  //     ],
+  //   );
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class _SearchChatPageState extends State<SearchChatPage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Padding(
-            padding: EdgeInsets.symmetric(vertical: 10.w),
+            padding: EdgeInsets.only(top: 80.w,bottom: 30.w),
             child: Text(
               '搜索指定内容',
               style: TextStyle(color: Colours.c_FFA7A7A7),
