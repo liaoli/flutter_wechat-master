@@ -37,7 +37,7 @@ class FriendItem extends StatelessWidget {
             onTap?.call(friend);
           }
         } else {
-          NavigatorUtils.toNamed(ChatPage.routeName,arguments: "62d6797b4fbbaa8db413b7235");
+          NavigatorUtils.toNamed(ChatPage.routeName,arguments: {"id":"62d6797b4fbbaa8db413b7235","index":0});
         }
       },
       child: Column(

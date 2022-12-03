@@ -149,6 +149,9 @@ class Colours {
   static const Color c_FFC0C0C0 = Color(0xFFC0C0C0);
   static const Color c_FFA6A6A6 = Color(0xFFA6A6A6);
   static const Color c_FFE8E8E8 = Color(0xFFBAAFAF);
+  static const Color c_FFB9B9B9 = Color(0xFFB9B9B9);
+  static const Color c_FFF8F6F8 = Color(0xFFF8F6F8);
+  static const Color c_FFB2B2B2 = Color(0xFFB2B2B2);
 
   static const Color line_color = Color(0xFFA3A3A4);
 

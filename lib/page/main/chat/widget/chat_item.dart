@@ -39,7 +39,7 @@ class _ChatItemState extends State<ChatItem> {
     return _buildCustomPopupMenu(
       child: TapWidget(
         onTap: () {
-          NavigatorUtils.toNamed(ChatPage.routeName,arguments:widget.conversation.id);
+          NavigatorUtils.toNamed(ChatPage.routeName,arguments:{"id":widget.conversation.id,"index":0});
         },
         child: Container(
           color: widget.conversation.isPin?Colours.c_EEEEEE:Colours.white,

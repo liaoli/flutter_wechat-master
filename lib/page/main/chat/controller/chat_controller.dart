@@ -31,11 +31,19 @@ class ChatController extends BaseXController {
   final ChatManagerController _managerController =
       ChatManagerController.instance;
 
+  int index = -1;
+
   @override
   void onInit() {
     super.onInit();
-    chatId = Get.arguments;
+    chatId = Get.arguments["id"];
+    index = Get.arguments["index"];
     _initListener();
+  }
+
+
+  void scrollToIndex(){
+    listScrollerController.scrollToIndex(index);
   }
 
   @override

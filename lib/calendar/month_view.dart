@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:leancloud_official_plugin/leancloud_plugin.dart';
 import 'package:wechat/core.dart';
+import 'package:wechat/page/main/chat/chat_2_page.dart';
 
 import '../color/colors.dart';
+import '../page/main/chat/chat_page.dart';
+import '../utils/navigator_utils.dart';
 import 'calendar_notification.dart';
 import 'day_number.dart';
 import 'month_title.dart';
@@ -9,17 +14,17 @@ import 'utils/dates.dart';
 import 'utils/screen_sizes.dart';
 
 class MonthView extends StatefulWidget {
-  const MonthView({
-    required this.context,
-    required this.year,
-    required this.month,
-    required this.padding,
-    this.dateTimeStart,
-    this.dateTimeEnd,
-    required this.onSelectDayRang,
-    this.todayColor = Colors.blue,
-    this.monthNames,
-  });
+  const MonthView(
+      {required this.context,
+      required this.year,
+      required this.month,
+      required this.padding,
+      this.dateTimeStart,
+      this.dateTimeEnd,
+      required this.onSelectDayRang,
+      this.todayColor = Colors.blue,
+      this.monthNames,
+      this.messages = const []});
 
   final BuildContext context;
   final int year;
@@ -30,6 +35,7 @@ class MonthView extends StatefulWidget {
   final DateTime? dateTimeStart;
   final DateTime? dateTimeEnd;
   final Function onSelectDayRang;
+  final List<Message> messages;
 
   double get itemWidth => getDayNumberSize(context, padding);
 
@@ -74,14 +80,30 @@ class _MonthViewState extends State<MonthView> {
             ? true
             : false;
       }
+      bool show = true;
+      DateTime dateTime =  DateTime.now();
+      if(dateTime.year == moment.year && dateTime.month == moment.month && day > dateTime.day){
+        show = false;
+      }
 
+      int index = checkChat(widget.year, widget.month, day);
+      bool hasCaht = index >0;
       dayRowChildren.add(
         DayNumber(
+          hasChat: hasCaht,
+          chatIndex: index,
           size: widget.itemWidth,
+          show:show,
           day: day,
           isToday: isToday,
           isDefaultSelected: isDefaultSelected,
           todayColor: widget.todayColor,
+          onClick: (int index) {
+            // NavigatorUtils.toNamed(ChatPage.routeName,
+            //     arguments: {"id":"62d6797b4fbbaa8db413b7235","index":index});
+
+            Get.to(() =>Chat2Page(message: widget.messages,index: index,title: "小杰",));
+          },
         ),
       );
 
@@ -111,8 +133,7 @@ class _MonthViewState extends State<MonthView> {
           return true;
         },
         child: Container(
-          width: 7 * getDayNumberSize(context, widget.padding),
-          margin: EdgeInsets.all(widget.padding),
+          color: Colours.white,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
@@ -121,9 +142,11 @@ class _MonthViewState extends State<MonthView> {
                 month: widget.month,
                 monthNames: widget.monthNames,
               ),
-               Colours.c_CCCCCC.toLine(0.5),
+              Colours.line.toLine(0.5),
               Container(
-                margin: const EdgeInsets.only(top: 8.0),
+                width: 7 * getDayNumberSize(context, widget.padding),
+                padding: EdgeInsets.symmetric(horizontal: widget.padding),
+                margin: const EdgeInsets.only(top: 4.0),
                 child: buildMonthDays(context),
               ),
             ],
@@ -136,5 +159,26 @@ class _MonthViewState extends State<MonthView> {
     return Container(
       child: buildMonthView(context),
     );
+  }
+
+  int checkChat(int year, int month, int day) {
+    int result = -1;
+    for (int i = 0; i < widget.messages.length; i++) {
+      Message m = widget.messages[i];
+      DateTime d = DateTime.fromMillisecondsSinceEpoch(m.sentTimestamp! * 1000);
+      if (year == d.year && month == d.month && day == d.day) {
+
+        result = i;
+      }
+    }
+
+    return result;
+  }
+
+  List<Message> msg = [];
+
+  @override
+  void initState() {
+    msg = widget.messages.toList();
   }
 }

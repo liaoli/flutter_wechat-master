@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:leancloud_official_plugin/leancloud_plugin.dart';
 
 import 'calendar_list.dart';
 
 class FullScreenCalendar extends StatefulWidget {
-  FullScreenCalendar({Key? key}) : super(key: key);
+  List<Message> message ;
+  FullScreenCalendar({Key? key,this.message = const []}) : super(key: key);
 
   @override
   _FullScreenCalendarState createState() => new _FullScreenCalendarState();
@@ -12,10 +14,15 @@ class FullScreenCalendar extends StatefulWidget {
 class _FullScreenCalendarState extends State<FullScreenCalendar> {
   @override
   Widget build(BuildContext context) {
-
     DateTime first = DateTime.now().subtract(Duration(days: 30));
+    if(widget.message.isNotEmpty){
+      first =DateTime.fromMillisecondsSinceEpoch(widget.message.last.sentTimestamp!*1000);
+    }
 
-    DateTime last = DateTime.now().add(Duration(days: 60));
+
+    DateTime last = DateTime.now();
+
+
 
     return CalendarList(
       firstDate: first,

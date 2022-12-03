@@ -2,10 +2,12 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 import 'package:wechat/color/colors.dart';
 import 'package:wechat/ext/decoration_ext.dart';
 import 'package:wechat/ext/screen_util_ext.dart';
 import 'package:wechat/ext/toast_ext.dart';
+import 'package:wechat/page/main/chat/contacts_details_page.dart';
 import 'package:wechat/page/main/chat/model/friend_item.dart';
 import 'package:wechat/page/main/chat/widget/search_bar.dart';
 
@@ -128,7 +130,7 @@ class _SearchPageState extends State<SearchPage> {
               _searchData(text);
             },
           ),
-          _models.isEmpty
+          _searchStr.isEmpty
               ? searchType()
               : MediaQuery.removePadding(
                   removeTop: true,
@@ -146,6 +148,12 @@ class _SearchPageState extends State<SearchPage> {
         slivers: [
           if (_models.isNotEmpty) contactHead(),
           if (_models.isNotEmpty) contact(),
+          SliverToBoxAdapter(
+            child: SizedBox(
+              height: 10.w,
+            ),
+          ),
+          SearchQQHead(),
           SliverToBoxAdapter(
             child: SizedBox(
               height: 10.w,
@@ -227,6 +235,68 @@ class _SearchPageState extends State<SearchPage> {
     );
   }
 
+  SliverToBoxAdapter SearchQQHead() {
+    return SliverToBoxAdapter(
+      child: GestureDetector(
+        onTap: () {
+          //TODO:
+          Get.to(() =>ContactsDetailsPage());
+        },
+        child: Container(
+          color: Colours.white,
+          padding:
+              EdgeInsets.only(left: 40.w, bottom: 25.w, right: 30.w, top: 25.w),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Image.asset(
+                    "assets/images/chat/search_qq_.pic.jpg",
+                    width: 60.w,
+                    height: 60.w,
+                  ),
+                  SizedBox(
+                    width: 20.w,
+                  ),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 10.w,
+                          ),
+                          child: Text.rich(
+                            TextSpan(
+                              children: [
+                                TextSpan(
+                                  text: "查找手机/QQ号 ",
+                                ),
+                                TextSpan(
+                                  style: TextStyle(
+                                      color: Colours.theme_color,
+                                      fontSize: 40.sp),
+                                  text: _searchStr,
+                                ),
+                              ],
+                            ),
+                            style: TextStyle(
+                                color: Colours.black, fontSize: 40.sp),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   SliverToBoxAdapter SearchRecordHead() {
     return SliverToBoxAdapter(
       child: Container(
@@ -241,6 +311,9 @@ class _SearchPageState extends State<SearchPage> {
                   Utils.getImgPath('search_more', dir: 'chat'),
                   width: 60.w,
                   height: 60.w,
+                ),
+                SizedBox(
+                  width: 20.w,
                 ),
                 Expanded(
                   child: Column(
@@ -278,6 +351,9 @@ class _SearchPageState extends State<SearchPage> {
                       ),
                     ],
                   ),
+                ),
+                SizedBox(
+                  width: 40.w,
                 ),
                 Icon(
                   Icons.arrow_forward_ios,

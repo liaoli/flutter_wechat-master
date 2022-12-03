@@ -19,7 +19,7 @@ class ChatMamBer extends StatefulWidget {
 
 class _ChatMamBerState extends State<ChatMamBer> {
 
-  String name ="小杰";
+  String name ="谭俊杰...";
   String avatar = "https://goerp.oss-cn-hongkong.aliyuncs.com/apk/erp/18200000002.jpeg";
 
   @override
@@ -48,9 +48,9 @@ class _ChatMamBerState extends State<ChatMamBer> {
                   SizedBox(height: 5.w,),
                   Text(
                      name ,
-                    style: TextStyle(color: Colours.c_FFE8E8E8),
+                    style: TextStyle(color: Colours.c_FFE8E8E8,fontSize: 20.sp),
                     overflow: TextOverflow.ellipsis,
-                  ),
+                  )
                 ],
               ),
             ),
@@ -69,7 +69,7 @@ class _ChatMamBerState extends State<ChatMamBer> {
           height: 80.w,
           decoration:
               BoxDecoration(border: Border.all(color: Colours.c_FFE8E8E8, width: 0.2.w)),
-          child: Image.asset('assets/images/chat/ic_details_add.png',
+          child: Image.asset('assets/images/icon_add_pic.jpg',
               width: 55.w, height: 55.w, fit: BoxFit.cover),
         ),
         onTap: (){

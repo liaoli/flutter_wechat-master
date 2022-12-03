@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:wechat/core.dart';
+
+import '../color/colors.dart';
 
 class WeekdayRow extends StatelessWidget {
   Widget _weekdayContainer(String weekDay) => Expanded(
@@ -6,8 +9,8 @@ class WeekdayRow extends StatelessWidget {
           child: Center(
             child: DefaultTextStyle(
               style: TextStyle(
-                color: Colors.black,
-                fontSize: 14.0,
+                color: Colours.c_FFB2B2B2,
+                fontSize: 36.w,
               ),
               child: Text(
                 weekDay,

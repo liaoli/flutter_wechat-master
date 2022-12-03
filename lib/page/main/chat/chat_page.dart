@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:get/get.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 import 'package:wechat/base/base_view.dart';
 import 'package:wechat/core.dart';
@@ -10,10 +11,10 @@ import 'package:wechat/utils/navigator_utils.dart';
 import 'package:wechat/widget/base_scaffold.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 import 'package:wechat/widget/refresh/refresh_widget.dart';
+import '../../../calendar/fullscreen_calendar.dart';
 import '../../../color/colors.dart';
 import '../../../utils/utils.dart';
 import '../../../widget/tap_widget.dart';
-import 'chat_detail_page.dart';
 import 'chat_info_page.dart';
 
 class ChatPage extends BaseGetBuilder<ChatController>{
@@ -29,7 +30,8 @@ class ChatPage extends BaseGetBuilder<ChatController>{
         TapWidget(onTap: () async {
           if(controller.conversation != null){
             // NavigatorUtils.toNamed(ChatDetailPage.routeName,arguments:controller.conversation);
-            NavigatorUtils.toNamed(ChatInfoPage.routeName,arguments:controller.conversation);
+            // NavigatorUtils.toNamed(ChatInfoPage.routeName,arguments:controller.conversation);
+            Get.to(() =>ChatInfoPage(message: controller.messages,));
           }
         }, child: Image.asset(Utils.getImgPath('ic_more_black',dir: Utils.DIR_ICON,),width: 40.w,height: 40.w,))
       ],
@@ -60,6 +62,7 @@ class ChatPage extends BaseGetBuilder<ChatController>{
               return true;
             },
             onRefresh: (_con) async{
+
               return true;
             },
             child: ListView.builder(itemBuilder: (context , index){

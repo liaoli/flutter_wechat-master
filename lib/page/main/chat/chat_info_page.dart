@@ -3,6 +3,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:get/get.dart';
+import 'package:leancloud_official_plugin/leancloud_plugin.dart';
 import 'package:wechat/core.dart';
 import 'package:wechat/page/main/chat/search_chat_page.dart';
 import 'package:wechat/page/main/chat/widget/label_row.dart';
@@ -17,8 +19,8 @@ class ChatInfoPage extends StatefulWidget {
   static const String routeName = '/ChatInfoPage';
 
   final String id;
-
-  ChatInfoPage({ this.id = ""});
+  List<Message> message ;
+  ChatInfoPage({ this.id = "",this.message = const []});
 
   @override
   _ChatInfoPageState createState() => _ChatInfoPageState();
@@ -63,7 +65,9 @@ class _ChatInfoPageState extends State<ChatInfoPage> {
         margin: EdgeInsets.only(top: 10.0),
         onPressed: (){
 
-          NavigatorUtils.toNamed(SearchChatPage.routeName,arguments: "");
+          // NavigatorUtils.toNamed(SearchChatPage.routeName,arguments: "");
+          // NavigatorUtils.toNamed(SearchChatPage.routeName,arguments: "");
+          Get.to(() =>SearchChatPage(message:widget.message));
         },
       ),
        Column(

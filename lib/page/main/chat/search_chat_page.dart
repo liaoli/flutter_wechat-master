@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:leancloud_official_plugin/leancloud_plugin.dart';
 import 'package:wechat/ext/screen_util_ext.dart';
 
+import '../../../calendar/fullscreen_calendar.dart';
 import '../../../color/colors.dart';
 import '../../../widget/base_scaffold.dart';
 import 'widget/search_bar.dart';
@@ -8,6 +11,11 @@ import 'widget/search_bar.dart';
 
 class SearchChatPage extends StatefulWidget {
   static const String routeName = '/SearchChatPage';
+
+  List<Message> message ;
+
+  SearchChatPage({Key? key,this.message = const []}):super(key: key);
+
   @override
   _SearchChatPageState createState() => _SearchChatPageState();
 }
@@ -29,6 +37,14 @@ class _SearchChatPageState extends State<SearchChatPage> {
         ),
       ),
       onTap: () {
+
+        switch (item){
+          case "日期":
+            Get.to(() =>FullScreenCalendar(message: widget.message,));
+            break;
+          default:
+            break;
+        }
 
       },
     );
