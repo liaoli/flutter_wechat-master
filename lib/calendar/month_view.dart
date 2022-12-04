@@ -144,7 +144,7 @@ class _MonthViewState extends State<MonthView> {
               ),
               Colours.line.toLine(0.5),
               Container(
-                width: 7 * getDayNumberSize(context, widget.padding),
+                // width: 7 * getDayNumberSize(context, widget.padding),
                 padding: EdgeInsets.symmetric(horizontal: widget.padding),
                 margin: const EdgeInsets.only(top: 4.0),
                 child: buildMonthDays(context),

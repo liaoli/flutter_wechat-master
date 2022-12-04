@@ -14,7 +14,7 @@ class ButtonRow extends StatelessWidget {
     this.margin,
     this.text="",
     this.style = const TextStyle(
-        color: Colours.c_737373FF, fontWeight: FontWeight.w600, fontSize: 16),
+        color: Colours.c_FF6073FF, fontWeight: FontWeight.w600, fontSize: 16),
     this.onPressed,
     this.isBorder = false,
     this.lineWidth = 0.5,

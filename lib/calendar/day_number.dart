@@ -53,7 +53,7 @@ class _DayNumberState extends State<DayNumber> {
             textAlign: TextAlign.center,
             style: TextStyle(
               color: textColor(),
-              fontSize: 40.sp,
+              fontSize: 36.sp,
               fontWeight: FontWeight.normal,
             ),
           ),
